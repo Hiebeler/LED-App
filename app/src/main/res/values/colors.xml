@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rot1">#FF0000</color>
+    <color name="rot2">#FF5500</color>
+    <color name="rot3">#FF7700</color>
+    <color name="rot4">#FFB300</color>
+    <color name="rot5">#FFFF00</color>
+    <color name="gruen1">#00FF00</color>
+    <color name="gruen2">#6FFF00</color>
+    <color name="gruen3">#00FF73</color>
+    <color name="gruen4">#009358</color>
+    <color name="gruen5">#003A1A</color>
+    <color name="blau1">#0000FF</color>
+    <color name="blau2">#0090FF</color>
+    <color name="blau3">#5100FF</color>
+    <color name="blau4">#A600FF</color>
+    <color name="blau5">#FF00EE</color>
+
+    <color name = "grau">#3A3A3A</color>
+
+
+</resources>

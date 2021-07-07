@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/grau"
+    android:orientation="vertical"
+    tools:context=".wecker">
+
+    <Button
+        android:id="@+id/btn_idBestätigenwecker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/grau"
+        android:text="Bestätigen"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayoutwecker"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_idMo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/grau"
+            android:text="Mo"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_idDi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/grau"
+            android:text="Di"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_idMi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/grau"
+            android:text="Mi"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_idDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/grau"
+            android:text="Do"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_idFr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/grau"
+            android:text="Fr"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_idSa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/grau"
+            android:text="Sa"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_idSo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/grau"
+            android:text="So"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutwecker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/openTimePicker"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/grau"
+            android:text="Button"
+            android:textColor="#FFFFFF"
+            tools:text="Change Time" />
+
+        <TextView
+            android:id="@+id/tvTest"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Uhrzeit"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="36sp" />
+    </LinearLayout>
+
+</RelativeLayout>
