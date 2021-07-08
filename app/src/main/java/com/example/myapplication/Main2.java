@@ -123,6 +123,7 @@ public class Main2 extends AppCompatActivity implements View.OnClickListener, Vi
 
         Dimmen = findViewById(R.id.seekBar);
 
+
         Dimmen.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
